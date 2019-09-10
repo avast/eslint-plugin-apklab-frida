@@ -10,7 +10,7 @@ const DEFAULT_COMMENT = `/**
 
 `;
 
-module.exports = {
+export default {
     meta: {
         type: "problem",
         schema: [],

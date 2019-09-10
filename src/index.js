@@ -1,8 +1,8 @@
 'use strict';
 
-const checkFileJsdoc = require("./rules/checkFileJsdoc");
+import checkFileJsdoc from "./rules/checkFileJsdoc";
 
-module.exports = {
+export default {
     configs: {
         recommended: {
             plugins: [ "apklab-frida" ],
