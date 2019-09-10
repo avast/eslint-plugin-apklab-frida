@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-apklab-frida",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint plugin & config for the Frida scripts used in the apklab.io platform.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,14 +24,13 @@
   },
   "homepage": "https://github.com/avast/eslint-plugin-apklab-frida#readme",
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-google": "^0.14.0"
+    "eslint": "^5.16.0"
   },
   "peerDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-google": "^0.14.0"
+    "eslint": "^5.16.0"
   },
   "dependencies": {
-    "comment-parser": "^0.6.2"
+    "comment-parser": "^0.6.2",
+    "eslint-config-google": "^0.14.0"
   }
 }
