@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-apklab-frida",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ESLint plugin & config for the Frida scripts used in the apklab.io platform.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -32,11 +32,11 @@
     "@babel/plugin-transform-flow-strip-types": "^7.4.4",
     "@babel/preset-env": "^7.6.0",
     "babel-plugin-add-module-exports": "^1.0.2",
-    "eslint": "^5.16.0",
+    "eslint": "^6.3.0",
     "husky": "^3.0.5"
   },
   "peerDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^5.0.0 || ^6.0.0"
   },
   "dependencies": {
     "comment-parser": "^0.6.2",
