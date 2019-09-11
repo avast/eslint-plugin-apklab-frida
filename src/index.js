@@ -82,6 +82,7 @@ export default {
                 }],
                 "no-var": "warn",
                 "no-console": "off",
+                "require-jsdoc": "off",
 
                 // Frida Duktape does not support all ES6 features
                 "arrow-body-style": "off",
