@@ -80,7 +80,7 @@ export default {
                     "tabWidth": 2,
                     "ignoreUrls": true
                 }],
-                "no-var": "warn",
+                "no-var": "off",
                 "no-console": "off",
                 "require-jsdoc": "off",
 
